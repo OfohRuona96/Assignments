@@ -1,57 +1,73 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif';
+  background-color: #ececec;
+  text-align: center; 
+}
+.login-form img{
+  width:70px;
+  height:70px;
+  border-radius: 50px;
+  box-shadow: 6px 6px 12px #c7c4c4, -6px -6px -12p #fff;
+}
+.login-form{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  width: 450px;
+  padding: 40px 30px;
+  border-radius: 10px;
+  background: #ececec;
+  box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+}
+.login-form h1 {
+  font-size: 36px;
+  color: #991;
+  margin-top: 5px;
+}
+.login-form input {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 20px 25px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background: #41f500cc;
+  box-shadow: inset 10px 10px 15px #c7c4c4, insert -10px -10px 15px #000;
   }
-  body{
-    background-color: #0f0f0f;
-    display: grid;
-    place-items: center;
-    align-items: center;
-    justify-items: center;
-    height: 100vh;
-    
-  }
-  main{
-    gap: 1rem;
-    display: grid;
-    grid-template-areas:
-      'a a a a b b'
-      'a a a a b b'
-      'c c c d d d' 
-      'c c c e e e'
-    ;
-    grid-auto-rows: minmax(100px,auto);
-    width: 900px;
-    height: 600px;
-    
-    
-   
-  }
-  main div{
-    padding: 2em;
-    text-align: center;
-    
-    
-  }
-  .item-a{
-    background-color:#eb5020;
-    grid-area: a;
+.login-form button {
+  width: 100px;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  border: none;
+  border-radius: 50px; 
+  font-size: 20px;
+  color: #991;
+  background: #0fca02cc;
+  box-shadow: 10px 10px 15px  #c7c4c4,-10px -10px 15px #000;
+  transition: .3s;
   
-  }
-  .item-b{
-    background-color:#ffa401;
-    grid-area: b;
-  }
-  .item-c{
-    background-color:#05aa42;
-    grid-area: c;
-  }
-  .item-d{
-    background-color:#01aefd;
-    grid-area: d;
-  }
-  .item-e{
-    background-color:#01aefd;
-    grid-area: e;
-  }
+}
+.login-form button:hover {
+  color: #484747; 
+  cursor: pointer;
+  box-shadow: insert 10px 10px 15px #c7c4c4c4, insert -10px -10px 15px #000;
+}
+.login-form span {
+  color: #991;
+  font-size: 16px;
+  display: block;
+  
+}
+.login-form span a {
+  text-decoration: none;
+}
+.login-form span a:hover {
+  color: blue;
+}
