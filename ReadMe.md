@@ -12,7 +12,8 @@ Git is a version control system (VCS). GitHub is the platform where Git reposito
 #### How to create GitHub branches?
 
 You can create a branch in different ways on GitHub.
-1.n GitHub.com, navigate to the main page of the repository.
+
+1.On GitHub.com, navigate to the main page of the repository.
 
 2.Above the list of files, click  Branches.
 
