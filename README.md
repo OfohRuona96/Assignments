@@ -1,5 +1,7 @@
 # Frontend Development Project
-This Task from Zuri, shows a simple Portfolio and also a Registration, Login and a Success Page that are linked. 
+
+This project shows a responsive three column card using CSS Flexbox Layout. it also includes a simple design using Grid CSS layout. 
+
 ## 🚀 About Me
 I'm a full stack developer from Nigeria.
 
