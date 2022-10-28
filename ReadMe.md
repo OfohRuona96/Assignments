@@ -1,7 +1,7 @@
 
 # Frontend Development Project
-For this Task from Zuri, three different branches were created. This branches include: week3, 
-week4, and lastly week5. Also, all week 3 to week 5 assignments were pushed to a GitHub repo called "Assignments".
+For this Task from Zuri, all week 3 to week 5 Tasks were pushed to a GitHub repo called "Assignments".
+ Three different branches were created, this branches include: week3, week4, and lastly week5. The tasks week 3 to week 5  were pushed to their respective branch.
 
 ## FAQ
 #### Are Git and GitHub the same?
